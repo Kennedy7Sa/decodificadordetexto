@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador</title>
+    <!-- estilo do navbar -->
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="fundo-animado.css">
+</head>
+<body>
+    
+    <!-- cabeçalho -->
+    <header>
+        <nav class="navbar">
+            <a href="/index.html" class="logo">KenCripto</a> 
+            <ul class="nav-menu">
+                
+                 <li class="nav-item"><a href="/index.html" class="nav-link">Home</a></li>          
+                 <li class="nav-item"><a href="https://www.linkedin.com/in/kennedy-arruda-devbackend/" class="nav-link" target="_blank">Sobre o desenvolvedor</a></li>          
+                          
+
+            </ul>
+            <!-- botão hamburguer  -->
+            <div class="hamburguer">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+    <!-- navibar acaba aqui  -->
+    
+
+    
+    <main>
+        
+        <section class="section_texto_descriptografado">
+            
+            <textarea class="input" id="input" placeholder="Digite seu texto"></textarea>
+            <div class="div_aviso_btn">
+                <p class="paragrafo_aviso"><img src="/assets/Group.png" alt="Aviso">Apenas letras minúsculas e sem acento.</p>
+                <div class="div_texto_descriptografado_btn">
+                    <button onclick="criptografar()" class="btn-criptografar">Criptografar</button>
+                    <button onclick="descriptografar()" class="btn-descriptografar">Descriptografar</button>
+                </div>
+            </div>
+        </section>
+        <section class="mensagens">
+            <div class="mensagens_div">
+                <img class="mensagens_div_img" src="/assets/criptografia icon.png" alt="cadeado-criptografia">
+                <h2 class="mensagem_div_titulo">Nenhuma mensagem encontrada.</h2>
+                <p class="mensagens_div_texto">Digite um texto que você deseja criptografar ou descriptografar.</p>
+                <p class="resposta"></p>
+                <button onclick="copiarTexto()" id="btn-copiar" hidden>Copiar texto</button>
+            </div>
+        </section>
+    </main>
+     <!-- backgroud bolhas  -->
+
+     <div class="container">
+        <div class="bolhas">
+            <span style="--i:11"></span>
+            <span style="--i:12"></span>
+            <span style="--i:17"></span>
+            <span style="--i:13"></span>
+            <span style="--i:15"></span>
+            <span style="--i:18"></span>
+            <span style="--i:5"></span>
+            <span style="--i:9"></span>
+            <span style="--i:1"></span>
+            <span style="--i:16"></span>
+            <span style="--i:19"></span>
+            <span style="--i:14"></span>
+            <span style="--i:21"></span>
+            <span style="--i:2"></span>
+            <span style="--i:7"></span>
+            <span style="--i:3"></span>
+            <span style="--i:21"></span>
+            <span style="--i:22"></span>
+            <span style="--i:11"></span>
+            <span style="--i:12"></span>
+            <span style="--i:17"></span>
+            <span style="--i:13"></span>
+            <span style="--i:15"></span>
+            <span style="--i:18"></span>
+            <span style="--i:5"></span>
+            <span style="--i:9"></span>
+            <span style="--i:1"></span>
+            <span style="--i:16"></span>
+            <span style="--i:19"></span>
+            <span style="--i:14"></span>
+            <span style="--i:21"></span>
+            <span style="--i:2"></span>
+            <span style="--i:7"></span>
+            <span style="--i:3"></span>
+            <span style="--i:21"></span>
+            <span style="--i:22"></span>
+
+
+        </div>
+    </div>
+    <footer class="footer">
+        <p>Desenvolvido por <a href="https://www.linkedin.com/in/kennedy-arruda-devbackend/" target="_blank"><strong>Kennedy S. Arruda</strong></a></p>
+    </footer>
+    <script src="decodificador.js" defer></script>
+    <script src="/navbar.js"></script>
+</body>
+</html>

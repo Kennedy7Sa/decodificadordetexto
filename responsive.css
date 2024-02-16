@@ -1,0 +1,227 @@
+@media (max-width: 1130px) {
+    footer {
+        margin-top: 5rem;
+        padding: 2.3rem;
+    }
+    .mensagens_div_img{
+        display: none;
+    }
+    
+}
+
+@media (max-width: 975px) {
+
+    main {
+        margin: 4%;
+        box-sizing: content-box;
+        padding-bottom: 0.9rem;
+        margin-bottom: 14%;
+    }
+
+    .section_texto_descriptografado{
+        box-sizing: content-box;
+        width: 80%;
+        height: 100%;
+        align-items: center;
+    }
+
+    .div_texto_descriptografado_btn {
+        flex-direction: column;
+    }
+
+    #input {
+        font-size: 1.3rem;
+        height: 100%;
+        resize: none;
+    }
+
+    #input::placeholder {
+        font-size: 1.3rem;
+    }
+
+    .paragrafo_aviso {
+        font-size: 0.75rem;
+        padding-bottom: 2%;
+    }
+
+    .btn-criptografar {
+        width: 14rem;
+        height: 3rem;
+    }
+    
+    .btn-descriptografar {
+        width: 14rem;
+        height: 3rem;
+    }
+
+    .mensagens {
+        height: 100%;
+        width: 100%;
+    }
+
+    .mensagens_div {
+        border: solid;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 0%;
+        height: 100%;
+    }
+
+    .mensagem_div_titulo {
+        font-size: 1.3rem;
+    }
+    
+    .mensagens_div_texto {
+        font-size: 1.1rem;
+    }
+
+    #btn-copiar {
+        width: 7rem;
+        height: 3rem;
+        border-radius: 24px;
+        font-size: 16px;
+        margin-bottom: 5%;
+    }
+
+    footer {
+        margin-top: 3rem;
+        padding: 1.7rem;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 900px) {
+    footer {
+        margin-top: 3rem;
+        padding: 2rem;
+    }
+}
+
+@media (max-width: 850px) {
+    footer {
+        margin-top: 3rem;
+        padding: 2.3rem;
+    }
+}
+
+@media (max-width: 800px) {
+
+    main {
+        margin-bottom: 16%;
+    }
+
+    #input {
+        font-size: 1rem;
+        height: 100%;
+        resize: none;
+    }
+
+    #input::placeholder {
+        font-size: 1rem;
+    }
+
+    .paragrafo_aviso {
+        font-size: 0.75rem;
+        padding-bottom: 4%;
+    }
+
+    .btn-criptografar {
+        margin-left: 15%;
+        width: 12rem;
+        height: 2.5rem;
+    }
+    
+    .btn-descriptografar {
+        margin-left: 15%;
+        width: 12rem;
+        height: 2.5rem;
+    }
+
+    #btn-copiar {
+        width: 7rem;
+        height: 2rem;
+        border-radius: 24px;
+        font-size: 16px;
+        margin-bottom: 5%;
+    }
+
+    .mensagens_div {
+        margin: 3%;
+    }
+
+    .mensagem_div_titulo {
+        font-size: 1.3rem;
+    }
+    
+    .mensagens_div_texto {
+        font-size: 1rem;
+    }
+
+    footer {
+        padding-top: 5.2%;
+    }
+}
+
+@media (max-width: 750px) {
+
+    main {
+        margin-bottom: 18%;
+    }
+
+    #input {
+        font-size: 1rem;
+        height: 100%;
+        resize: none;
+    }
+
+    #input::placeholder {
+        font-size: 1rem;
+    }
+
+    .paragrafo_aviso {
+        font-size: 0.75rem;
+        padding-bottom: 4%;
+    }
+
+    .btn-criptografar {
+        margin-left: 15%;
+        width: 12rem;
+        height: 2.5rem;
+    }
+    
+    .btn-descriptografar {
+        margin-left: 15%;
+        width: 12rem;
+        height: 2.5rem;
+    }
+
+    .mensagens_div {
+        margin: 3%;
+    }
+
+    .mensagem_div_titulo {
+        font-size: 1.3rem;
+    }
+    
+    .mensagens_div_texto {
+        font-size: 1rem;
+    }
+
+    footer {
+        padding-top: 5%;
+    }
+}
+
+@media (max-width: 665px) {
+
+    main {
+        margin-bottom: 24%;
+    }
+    
+}
+@media (max-width: 550px) {
+
+    main {
+        margin-bottom: 19%;
+    }
+}
